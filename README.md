@@ -13,3 +13,17 @@ AI（生成AIおよび自律エージェント）が自身の出力の「不確�
 - **Uncertainty Disclosure (UD):** 不確実性の定量的開示
 - **Logical Friction (LF):** 安易な同意を避け、ユーザーに思考を促す論理的摩擦
 - **Data Provenance (DP):** 事実と推論の厳密な分離
+{
+  "protocol_version": "0.1.0",
+  "content": "回答本文",
+  "logic_metrics": {
+    "confidence_score": 0.65, 
+    "uncertainty_factors": [
+      "2025年以降の最新データが不足している",
+      "参照した法的ソースに解釈の余地がある"
+    ],
+    "alternative_hypotheses": [
+      "Aパターンの場合は利益率10%だが、Bパターンでは5%に下がる可能性がある"
+    ]
+  }
+}
